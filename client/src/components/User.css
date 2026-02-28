@@ -1,0 +1,42 @@
+.other-user-picture{
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+}
+
+.presentation-other-user{
+    width: 40%;
+    border: 2px black solid;
+    padding-left: 5px;
+}
+
+.presentation-other-user img{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.other-user-profile-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.other-user-profile-page .message{
+    width: 100%;
+}
+
+.in-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.in-profile .follow-handler{
+    margin-right: 600px;
+}
+
+#other-user-bio{
+    border-bottom: 2px black solid;
+    padding-bottom: 10px;
+}

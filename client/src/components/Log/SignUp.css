@@ -1,0 +1,56 @@
+#signinForm {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    border-style: solid;
+    padding: 15px;
+    width:300px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+h1{
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+
+input{
+    margin-bottom: 1.5em;
+}
+
+label[for$="nom"]{
+    text-align: center;
+}
+
+#signUpButton{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.signUpButtonConnexion{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.signUpButton:hover{
+    transform: translateY(-5px);
+    transition: transform 0.1s ease 0.1s;
+}
+
+#has-signed-up{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}

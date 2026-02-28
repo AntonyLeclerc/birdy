@@ -1,0 +1,22 @@
+.follow-handler{
+    cursor: pointer;
+}
+
+.follow-handler{
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.card-social-button-unfollow{
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.card-social-button-follow{
+    background-color: rgb(29, 155, 240);
+    color: black;
+    padding: 5px;
+}
+

@@ -1,0 +1,26 @@
+.login-bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+
+
+.signup-bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-bloc:hover{
+    cursor: pointer;
+}
+
+.signup-bloc:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+
+
+.navigationPanelOption{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.navigationPanelOption > .MuiSvgIcon-root{
+    padding: 20px;
+}
+
+.navigationPanelOption > p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.navigationPanelOption:hover{
+    background-color: #e8f5fe;
+    height: 100%;
+}
+

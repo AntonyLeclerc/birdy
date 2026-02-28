@@ -1,0 +1,10 @@
+#delete-account-button{
+    background-color: red;
+    color: white;
+    border: 2px black solid;
+    border-radius: 9999px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}

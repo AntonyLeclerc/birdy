@@ -1,0 +1,213 @@
+.msg-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.msg-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.owner-msg-actions{
+    margin-left: auto;
+    display: flex;
+}
+
+.msg-user span{
+    font-family: Comic Sans MS;
+}
+
+.message{
+    border: 2px black solid;
+    height: 100%;
+    width: 40%;
+    min-width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.message p {
+    margin-left: 20px;
+}
+
+.modify-msg-button{
+    margin-left: auto;
+    margin-right: 5px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.date{
+    color: grey;
+}
+
+.update-msg{
+    width: 95%;
+    height: 75px;
+    resize: none;
+    display: flex;
+    margin: auto;
+}
+
+.card-social-button-follow{
+    display: flex;
+    margin-right: 375px;
+    border: 1px black solid;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.card-social-button-unfollow{
+    display: flex;
+    margin-right: 375px;
+    border: 1px black solid;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.pseudo-follow{
+    display: flex;
+    justify-content: center;
+}
+
+.pseudo-follow span{
+    margin-right: 5px;
+    
+}
+
+.updating-message .update-msg-button{
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    margin-top: 20px;
+    padding: 4px;
+    
+}
+
+.has-shared{
+    color: grey;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.has-pinned{
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.shared-icon{
+    width: 35px;
+}
+
+.has-shared-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.like-button{
+    margin-right: 80px;
+}
+
+.like-icon{
+    width: 30px;
+}
+
+.retweet-icon{
+    width: 30px;
+}
+
+.comments-icon{
+    width: 30px;
+}
+
+.retweet-action, .like-action{
+    display: flex;
+    align-items: center;
+}
+
+.retweet-action p, .like-action p{
+    margin-left: 5px;
+}
+
+.like-action{
+    margin-right: 20px;
+}
+
+.commentaire{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    overflow-x: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    word-wrap: break-word;
+    border: 2px black solid;
+}
+
+.commentaire p {
+    word-wrap: break-word;
+    overflow: auto;
+  }
+
+.commentaire img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.comments-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.commentaire-user{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.commentaire-user span{
+    height: 30px;
+}
+
+.comment-date{
+    color: grey;
+    font-style: italic;
+}
+
+.link-to-user-from-comment {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}

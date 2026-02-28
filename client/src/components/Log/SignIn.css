@@ -1,0 +1,29 @@
+#loginForm{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 150px 150px;
+    border: 2px solid black;
+    padding: 15px;
+    width:300px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input{
+    margin-bottom: 1.5em;
+}
+
+.loginButton{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.loginButton:hover{
+    transform: translateY(-5px);
+    transition: transform 0.1s ease 0.1s;
+}

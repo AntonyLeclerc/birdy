@@ -1,0 +1,56 @@
+.thread{
+    display: flex;
+    flex-direction: column;
+}
+
+#filter-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#filter-container input{
+    font-style: italic;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+#filter-container label{
+    text-align: center;
+}
+
+#stats{
+    border: 2px black solid;
+}
+
+.comment-pseudo-follow{
+    display: flex;
+    align-items: center;
+}
+
+.comment-pseudo-follow p {
+    margin-right: 10px;
+}
+
+.post-comment{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 70%;
+}
+
+
+.post-comment button{
+    margin: auto;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.post-comment textarea{
+    resize: none;
+    height: 50px;
+}

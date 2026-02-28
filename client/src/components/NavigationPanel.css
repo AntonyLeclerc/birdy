@@ -1,0 +1,51 @@
+nav {
+    overflow: hidden;
+    border-bottom: 3px black solid;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    width: 5em;
+    height: 4em;
+    max-height: 4em;
+    float: left;
+    padding-bottom: 3px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 5px;
+}
+
+.right-element-logged {
+    float: right;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.right-element-not-logged{
+    float: right;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#pp-navbar{
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+#logout-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+#logout-button p{
+    margin-top: -2px;
+}
